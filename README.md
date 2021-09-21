@@ -10,7 +10,7 @@ So don't be surprised if srt2cue will not work with some other .srt-files, howev
 srt2cue originally is a quick-and-dirty solution, so I also cannot guarantee that it will generate a 100% correct CUE file. However, I tested it with mp3splt and it works well.
 
 # How to build it?
-I'ts written in Go, so 
+It's written in Go, so 
 ```
 git clone && go build
 ```
@@ -53,5 +53,5 @@ mp3splt -D -c test.cue test.mp3
 ```
 
 
-# Question, issues, improvements?
+# Questions, issues, improvements?
 Raise an "Issue' on Github or send me a pull request.
